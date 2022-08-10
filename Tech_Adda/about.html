@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+  }
+  
+  html {
+	box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+  
+  .column {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  }
+  
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+  }
+  
+  .about-section {
+	padding: 50px;
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+  }
+  
+  .container {
+	padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  .title {
+	color: grey;
+  }
+  
+  .button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 50%;
+  }
+  
+  .button:hover {
+	background-color: #555;
+  }
+  
+  @media screen and (max-width: 450px) {
+	.column {
+	  width: 50%;
+	  display: block;
+	}
+  }
+span{
+	color: #ff022c
+}
+	</style>
+</head>
+<body>
+	<div class="about-section">
+		<h1>About <span>T</span>ech <span class="name">_A</span>dda</h1>
+		<p>This is our team of <span>T</span>ech <span class="name">_A</span>dda .</p>
+		<p></p>
+	  </div>
+	  
+	  <h2 style="text-align:center">Our Team</h2>
+	  <div class="row">
+		<div class="column">
+		  <div class="card">
+			<img src="hamim.jpg" alt="Hamim" style="width:50%">
+			<div class="container">
+			  <h2>Hamim Reja</h2>
+			  <p class="title">CEO & Founder</p>
+			  <p></p>
+			  <p>hacked.hamim@gmail.com</p>
+			  <p><a href="text.html"><button class="button">Contact</button></a></p>
+			</div>
+		  </div>
+		</div>
+	  
+		<div class="column">
+		  <div class="card">
+			<img src="Labib.jpg" alt="Labib" style="width:50%">
+			<div class="container">
+			  <h2>Labib Hasan</h2>
+			  <p class="title">Art Director</p>
+			  <p></p>
+			  <p></p>
+			  <p><a href="text2.html"><button class="button">Contact</button></a></p> 
+			</div>
+		  </div>
+		</div>
+	  
+		<div class="column">
+		  <div class="card">
+			<img src="ajij.jpg" alt="Ajij" style="width:50%">
+			<div class="container">
+			  <h2>Abdul Ajij</h2>
+			  <p class="title">Designer</p>
+			  <p></p>
+			  <p></p>
+			  <p><a href="#"><button class="button">Contact</button></a></p>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	
+</body>
+</html>
+
+
+
+
+  <!-- ------------------------------------------------------- -->
+  
